@@ -12,18 +12,12 @@ export function Post(props) {
           <p className='nombre-post'> by <strong>{props.autor}</strong> el  <Moment format="YYYY/MM/DD">{props.fecha}</Moment></p>
           <p className='texto-post'> {props.texto} </p>
           <p className ='tags-post'>
-
-            {  props.tags.map((item,id) => {
+            { props.tags.map((item,id) => {
               return (
                 <button class="btn first">{item}</button>
               )   
             })}
           </p>
-
-
-         
-
-
         </div>
     </div>
   );
