@@ -1,7 +1,7 @@
 
 # 📌 Blog Semana 
 
-¡Hola! Esta es una aplicación desarrollada con React que representa un blog utilizando la API de [https://dummyapi.io/] (https://www.freecodecamp.org/espanol/). 
+¡Hola! Esta es una aplicación desarrollada con React que representa un blog utilizando la API de [https://dummyapi.io/]
 
 Esta aplicación fue creada por [Danilo Andres Pineda Moreno] como prueba tecnica para SEMANA Su estructura inicial fue creada con el comando `npx create-react-app`.
 
