@@ -1,0 +1,83 @@
+.contenedor-post {
+  width: 1200px;
+  height: 368px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: #ffffff;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+.imagen-post {
+  height: 100%;
+  width: 50%;
+}
+
+.contenedor-texto-post {
+  text-align: center;
+  padding: 40px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.nombre-post {
+  font-size: 1.3rem;
+}
+
+.cargo-post {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.texto-post {
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-top: 15px;
+  font-style: oblique;
+}
+
+a {
+  color: #00ab6b;
+  text-decoration: none;
+  font-size: 0.5rem;
+}
+
+.tags-post{
+  display:flex;
+}
+
+.btn {
+  display: flex;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #ce1500;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 8px 7px 1px 5px;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.btn:hover, .btn:focus {
+  color: #000;
+  outline: 0;
+}
+
+.first {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-
+
+}
